@@ -1,0 +1,222 @@
+﻿/*  
+
+Theme Name: Tutorial
+
+Theme URI: http://www.wpdesigner.com
+
+Description: This is my theme for a tutorial.
+
+Version: 1.0
+
+Author: Small Potato
+
+Author URI: http://www.wpdesigner.com/
+
+
+
+*/
+@import url('css/bootstrap.min.css'); 
+@import url('css/bootstrap-theme.css'); 
+
+a{
+	text-decoration:none;
+}	
+
+.body{
+	background: #CCDDFF;
+	font-family: Arial,'Times New Roman',S    ;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+.entry{
+	line-height: 200%;
+}
+
+a {
+	text-decoration:none;
+	color:#000000;
+
+}    /* 未被访问的链接 */
+#header a:hover {
+	text-decoration:none;
+	color:#000000;
+}   /* 鼠标指针移动到链接上 */
+a:visited {
+	text-decoration:none;
+	color:#000000;
+} /* 已被访问的链接 */
+#container a:hover {
+	text-decoration:none;
+	color:#999999;
+}   /* 鼠标指针移动到链接上 */
+
+@media   screen and(min-device-width: 500px),(min-width: 500px) {
+	#header h5{
+		text-align: right;
+		font-family: STKaiti   ;
+	}
+	#header h1{
+		font-weight: 500;
+		font-family: Microsoft YaHei ;
+	}
+}
+
+@media  (max-width: 499px)  {
+	#header h5{
+		text-align: center;
+		font-family: STKaiti   ;
+	}
+	#header h1{
+		font-weight: 500;
+		font-family: Microsoft YaHei ;
+		text-align: center;
+	}
+}
+
+
+
+.comments-template{
+	margin: 10px 0 0;
+	border-top: 1px solid #ccc;
+	padding: 10px 0 0;
+}
+
+.comments-template ol{
+	margin: 0;
+	padding: 0 0 15px;
+	list-style: none;
+}
+
+.comments-template ol li{
+	margin: 10px 0 0;
+	line-height: 18px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.comments-template h2, .comments-template h3{
+	font-family: Georgia, Sans-serif;
+	font-size: 16px;
+}
+
+.commentmetadata{
+	font-size: 12px;
+}
+
+.comments-template p.nocomments{
+	padding: 0;
+}
+
+.comments-template textarea{
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+}
+#section{    
+		margin-left: 10%;
+    		width: 80%;
+		
+	}
+@media (max-width: 1400px) and (min-width: 500px) {
+	#section{    
+		margin-left: 10%;
+    		width: 80%;
+		width: 96%;
+	    max-width: 780px;
+	    margin: 0 auto;
+	}
+}
+
+@media (min-width: 1900px) and (min-width: 1401px)  {
+	#section{    
+		margin-left: 10%;
+    		width: 80%;
+		width: 96%;
+	    max-width: 940px;
+	    margin: 0 auto;
+	}
+}
+
+@media  (min-width: 1901px)  {
+	#section{    
+		margin-left: 10%;
+    		width: 80%;
+		width: 96%;
+	    max-width: 1240px;
+	    margin: 0 auto;
+	}
+}
+
+
+@media  (min-width: 500px) {
+
+	#header,#footer{
+		margin-left:160px; 
+	}
+
+	#searchsubmit{
+		margin-top: 5px;
+	}
+
+	#container{
+		float: left;
+		width: 100%;
+		padding: 0 160px 0 160px;
+		background-color: white;
+		min-height: 450px;
+		box-shadow: 10px 10px 5px #66CCFF;
+		margin-bottom: 20px;
+		border-radius: 3px;
+	}
+
+	.sidebar2,.sidebar1{
+		top: 20%;
+		position: relative;
+		opacity:0.8;
+		filter:alpha(opacity=80);
+		padding: 10px;
+		font-family: YouYuan    ;
+	}
+
+	.sidebar2{
+		float: left;
+		width: 160px;
+		margin-left: -100%;
+	 	left: -00px;
+
+	}
+
+	.sidebar1{
+		float: left;
+		width: 160px;
+		margin-left: -160px;
+	}	
+		
+	.sidebar2 ul li{
+		text-align: left;
+		list-style-type:none;
+	}
+
+}
+
+@media   (max-width: 499px) {
+
+	#footer{
+		text-align: center;
+	}
+
+	#container{
+		margin: 5px;
+		padding: 2px;
+		background-color: white;
+		box-shadow: 2px 2px 2px #66CCFF;
+		border-radius: 3px;
+	}
+
+	.sidebar2,.sidebar1{
+		display: none;
+	}
+
+
+}
